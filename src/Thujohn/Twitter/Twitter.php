@@ -288,7 +288,7 @@ class Twitter extends tmhOAuth {
 			$this->log('ERROR_CODE : '.$error_code);
 			$this->log('ERROR_MSG : '.$error_msg);
 
-			throw new Exception('['.$error_code.'] '.$error_msg, $response['code']);
+			//throw new Exception('['.$error_code.'] '.$error_msg, $response['code']);
 		}
 
 		switch ($format)
