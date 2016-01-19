@@ -73,9 +73,9 @@ class Twitter extends tmhOAuth {
 		$this->parent_config['consumer_secret'] = $this->tconfig['CONSUMER_SECRET'];
 		$this->parent_config['token']           = $this->tconfig['ACCESS_TOKEN'];
 		$this->parent_config['secret']          = $this->tconfig['ACCESS_TOKEN_SECRET'];
-		
-		$this->parent_config['curl_connecttimeout'] = 10;
-		$this->parent_config['curl_timeout'] = 5;
+
+		$this->parent_config['curl_connecttimeout'] = 3;
+		$this->parent_config['curl_timeout'] = 2;
 
 		if ($session->has('access_token'))
 		{
