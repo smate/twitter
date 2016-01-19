@@ -272,7 +272,7 @@ class Twitter extends tmhOAuth {
 
 		if (isset($response['code']) && $response['code'] != 200)
 		{
-			$_response = $this->jsonDecode($response['response'], true);
+			$_response = (array) $this->jsonDecode($response['response'], true);
 
 			if (array_key_exists('errors', $_response))
 			{
