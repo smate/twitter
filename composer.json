@@ -1,5 +1,5 @@
 {
-    "name": "smate/twitter",
+    "name": "thujohn/twitter",
     "description": "Twitter API for Laravel",
 	"keywords": ["twitter", "laravel", "laravel4", "laravel5"],
     "license": "MIT",
